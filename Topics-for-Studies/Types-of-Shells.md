@@ -1,7 +1,6 @@
 # Types of Shells — CPTS & OSCP Study Topic
 
 **Category:** Topics for Studies → Shells and Remote Access  
-**Source:** HTB Academy material provided in chat  
 **Type:** Study notes, not a completed lab
 
 [← Home](../README.md) · [Topics index](README.md)
