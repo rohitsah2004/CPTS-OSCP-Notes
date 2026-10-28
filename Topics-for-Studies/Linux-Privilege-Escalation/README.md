@@ -1,29 +1,28 @@
-# 🐧 Linux Privilege Escalation
+# 🐧 Linux Privilege Escalation — Complete Study Guide
 
-[← All study topics](../README.md) · [← Home](../../README.md)
+[← Topics](../README.md) · [← Home](../../README.md) · [Cheatsheet](../../Cheatsheets/linux-privilege-escalation-commands.md)
 
-A topic-focused guide to local privilege escalation for CPTS and OSCP preparation.
+This is the topic-by-topic learning library. It includes detailed explanations, example outputs, technical commands, and direct reference links. The completed exercise is documented separately.
 
-## Topic map
+## Read in order
 
-| Area | What to learn | Reference |
-|---|---|---|
-| Identity and system | `whoami`, `id`, `groups`, `hostname`, `uname -a` | [Completed exercise](../../Labs/001-linux-privesc-user1-user2-root.md) |
-| Sudo and user switching | Sudo rules, passwords, user/group scope | [Completed exercise](../../Labs/001-linux-privesc-user1-user2-root.md) |
-| File permissions | `rwx`, numeric modes, SUID, `chmod` | [Completed exercise](../../Labs/001-linux-privesc-user1-user2-root.md) |
-| Filesystem enumeration | `find`, writable locations, SUID searches | [Completed exercise](../../Labs/001-linux-privesc-user1-user2-root.md) |
-| Processes and scheduled tasks | Running processes and cron | [Completed exercise](../../Labs/001-linux-privesc-user1-user2-root.md) |
-| Credentials and shell history | Where sensitive information may appear | [Completed exercise](../../Labs/001-linux-privesc-user1-user2-root.md) |
-| SSH keys | Key files, permissions and safe handling | [Detailed SSH study notes](03-ssh-keys.md) |
+| Chapter | Concepts |
+|---|---|
+| [01 — Enumeration & vulnerabilities](01-enumeration-and-vulnerabilities.md) | Checklists, LinEnum, LinPEAS, Seatbelt, JAWS, kernel vulnerabilities, installed software |
+| [02 — Sudo & scheduled tasks](02-sudo-and-scheduled-tasks.md) | `sudo -l`, `NOPASSWD`, user switching, GTFOBins, cron |
+| [03 — SSH keys](03-ssh-keys.md) | Key files, permissions, `ssh-keygen`, key formatting and authentication |
+| [04 — Credentials & SSH explanations](05-credentials-and-key-management.md) | Credential exposure, history, public/private key examples |
+| [Command cheatsheet](../../Cheatsheets/linux-privilege-escalation-commands.md) | All core enumeration, `find`, `chmod`, sudo and SSH commands |
+| [Resource directory](../../Cheatsheets/privilege-escalation-resources.md) | HackTricks, PayloadsAllTheThings, LinPEAS, GTFOBins, LOLBAS, and other tools |
+| [Completed practical](../../Labs/001-linux-privesc-user1-user2-root.md) | Verified user1 → user2 → root path and troubleshooting |
 
-## Essential principles
+## Suggested study sequence
 
-- Distinguish **cross-user access** from **root privilege escalation**.
-- Verify privilege changes with identity checks rather than assuming success.
-- A file owned by root is not necessarily unreadable by other users.
-- A SUID file is not automatically exploitable.
-- A sudo permission for one account does not automatically apply to another.
-- Private keys require strict local protection.
-- Treat automated enumeration output as leads to verify, not proof.
+1. Identify the current user and effective privileges.
+2. Enumerate the OS, installed software, processes and relevant permissions.
+3. Understand and interpret sudo rules and SUID findings.
+4. Check cron, exposed credentials and SSH-key protections where authorized.
+5. Practice `find`, `chmod`, `sudo -l`, and SSH diagnostics until you can explain every flag.
+6. Recreate the successful evidence chain without copying the walkthrough.
 
-**Note:** This is a navigational study overview. The accompanying completed exercise and SSH study file preserve detailed observed evidence. Some longer topic uploads remain pending.
+**All passwords and private-key contents must stay out of GitHub.**
