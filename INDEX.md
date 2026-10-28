@@ -1,20 +1,21 @@
-# 📚 Lab Index
+# 📚 Study Index
 
-[← Home](README.md) · [Commands](Cheatsheets/README.md) · [Tracker](STUDY-TRACKER.md)
+[← Home](README.md)
 
-## Labs by topic
+## Practical labs
 
-| ID | Lab | Track | Focus | Status |
-|---|---|---|---|---|
-| 001 | [WordPress Simple Backup path traversal](CPTS/HTB-Academy/Public-Exploits/001-wordpress-simple-backup-path-traversal.md) | CPTS / OSCP practice | Web enumeration, public exploits, file traversal | ⏳ Retrieval unverified |
+| Lab | Description | Status |
+|---|---|---|
+| [001](Labs/001-linux-privesc-user1-user2-root.md) | Linux PrivEsc: user1 → user2 → root | ✅ Completed |
+| [002](Labs/002-wordpress-simple-backup.md) | WordPress Simple Backup file traversal | ⏳ Not verified |
 
-## Topics
+## Study topics
 
-- **Reconnaissance:** [Nmap and WordPress discovery](Cheatsheets/web-and-public-exploits.md#enumeration)
-- **Public exploits:** [SearchSploit](Cheatsheets/web-and-public-exploits.md#public-exploit-research)
-- **HTTP and curl:** [GET parameters, headers, response saving](Cheatsheets/web-and-public-exploits.md#http-basics)
-- **Traversal:** [Full case study](CPTS/HTB-Academy/Public-Exploits/001-wordpress-simple-backup-path-traversal.md#3-understanding-the-vulnerability)
+- [Linux Privilege Escalation — complete theory and explanations in one file](Topics-for-Studies/Linux-Privilege-Escalation.md)
+- [Types of Shells](Topics-for-Studies/Types-of-Shells.md)
 
-**Status legend:** ✅ Verified · ⏳ In progress/unverified · 🛑 Blocked
+## Cheatsheets
 
-> Add future notes to this index using a unique lab number and keyword-rich title.
+- [Linux PrivEsc commands](Cheatsheets/linux-privilege-escalation-commands.md)
+- [Privilege Escalation resources](Cheatsheets/privilege-escalation-resources.md)
+- [Web commands](Cheatsheets/web-and-public-exploits.md)
