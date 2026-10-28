@@ -22,3 +22,10 @@ Find a command by tool or task. Detailed commands from the original lab are pres
 - [Full Linux PrivEsc command reference](linux-privilege-escalation-commands.md) — `find`, `chmod`, sudo, SSH, enumeration, cron, permissions
 - [Privilege escalation tools and resources](privilege-escalation-resources.md) — checklists, LinPEAS, LinEnum, Seatbelt, JAWS, GTFOBins and LOLBAS
 - [Detailed topic chapters](../Topics-for-Studies/Linux-Privilege-Escalation/README.md)
+
+## Quick links — external references
+
+- [HackTricks — Linux Privilege Escalation](https://hacktricks.wiki/linux-hardening/linux-basics/linux-privilege-escalation/index.html)
+- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+- [Reverse Shell Cheatsheet](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary)
+- [Full privilege escalation resource directory](privilege-escalation-resources.md)
