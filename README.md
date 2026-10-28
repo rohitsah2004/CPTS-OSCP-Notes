@@ -19,6 +19,11 @@
 | Document a new lab | [Reusable lab template](Templates/lab-template.md) |
 | Track exam readiness | [Study tracker](STUDY-TRACKER.md) |
 
+## 📖 Study topics
+
+- [Types of Shells — reverse, bind and web shells](Topics-for-Studies/Types-of-Shells.md)
+- [Browse all study topics](Topics-for-Studies/README.md)
+
 ## 📚 Current lab library
 
 | # | Topic | Techniques | Verification |
