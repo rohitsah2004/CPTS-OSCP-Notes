@@ -15,9 +15,9 @@
 
 Record **every command exactly**, including flags, ports, hostnames, paths, and tool output.
 
-\`\`\`bash
+```bash
 # commands here
-\`\`\`
+```
 
 ## 4. Findings and vulnerability research
 
