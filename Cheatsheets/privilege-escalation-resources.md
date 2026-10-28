@@ -1,6 +1,6 @@
 # 🔎 Privilege Escalation — Tools & Resources
 
-[← Cheatsheet index](README.md) · [Study Topics](../Topics-for-Studies/Linux-Privilege-Escalation/README.md)
+[← Cheatsheet index](README.md) · [Study Topics](../Topics-for-Studies/Linux-Privilege-Escalation.md)
 
 Use these resources to research findings from **authorized** assessments. Check versions, scope, prerequisites, and side effects before testing a technique.
 
