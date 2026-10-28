@@ -40,3 +40,14 @@ Use these resources to research findings from **authorized** assessments. Check 
 - [Sudo and scheduled tasks](../Topics-for-Studies/Linux-Privilege-Escalation/02-sudo-and-scheduled-tasks.md)
 - [Exposed credentials and SSH](../Topics-for-Studies/Linux-Privilege-Escalation/05-credentials-and-key-management.md)
 - [Completed lab report](../Labs/001-linux-privesc-user1-user2-root.md)
+
+## Direct reference links from study notes
+
+| Topic | Resource | How to use it |
+|---|---|---|
+| Linux privilege escalation | [HackTricks Linux PrivEsc](https://hacktricks.wiki/linux-hardening/linux-basics/linux-privilege-escalation/index.html) | Consult the Linux privilege escalation methodology and enumeration checklist |
+| Exploitation methodology | [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | Cross-reference techniques, prerequisites and testing methods |
+| Reverse shells | [InternalAllTheThings Reverse Shell Cheatsheet — Summary](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary) | Compare reverse-shell approaches for authorized lab environments |
+| Bind shells | [InternalAllTheThings Bind Shell Cheatsheet](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-bind-cheatsheet/) | Compare bind-shell communication patterns |
+
+These are external technical references, not attribution for the author of these personal study notes.
