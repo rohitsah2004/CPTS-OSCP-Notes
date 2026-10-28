@@ -12,7 +12,7 @@
 | --- | --- |
 | Browse every lab | [Lab index](INDEX.md) |
 | Find a command quickly | [Command index](Cheatsheets/README.md) |
-| Review WordPress plugin exploitation | [Lab 001 — Simple Backup](CPTS/HTB-Academy/Public-Exploits/001-wordpress-simple-backup-path-traversal.md) |
+| Review WordPress plugin exploitation | [Lab 001 — Simple Backup](Labs/002-wordpress-simple-backup.md) |
 | Practice web requests and SearchSploit | [Web exploitation cheatsheet](Cheatsheets/web-and-public-exploits.md) |
 | Review CPTS Academy notes | [CPTS folder](CPTS/README.md) |
 | Review OSCP methodology | [OSCP folder](OSCP/README.md) |
@@ -35,7 +35,7 @@
 
 | # | Topic | Techniques | Verification |
 | --- | --- | --- | --- |
-| [001](CPTS/HTB-Academy/Public-Exploits/001-wordpress-simple-backup-path-traversal.md) | WordPress Simple Backup 2.7.10 | Nmap, Metasploit, SearchSploit, curl, path traversal | ⏳ Not confirmed |
+| [001](Labs/002-wordpress-simple-backup.md) | WordPress Simple Backup 2.7.10 | Nmap, Metasploit, SearchSploit, curl, path traversal | ⏳ Not confirmed |
 
 ## 🎯 Study method
 
