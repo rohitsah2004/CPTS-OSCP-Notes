@@ -19,10 +19,15 @@
 | Document a new lab | [Reusable lab template](Templates/lab-template.md) |
 | Track exam readiness | [Study tracker](STUDY-TRACKER.md) |
 
+## 🏁 Completed lab reports
+
+- [Linux Privilege Escalation: user1 → user2 → root](Labs/001-linux-privesc-user1-user2-root.md)
+
 ## 📖 Study topics
 
 - [Types of Shells — reverse, bind and web shells](Topics-for-Studies/Types-of-Shells.md)
 - [Browse all study topics](Topics-for-Studies/README.md)
+- [Linux Privilege Escalation — study guide](Topics-for-Studies/Linux-Privilege-Escalation/README.md)
 
 ## 📚 Current lab library
 
