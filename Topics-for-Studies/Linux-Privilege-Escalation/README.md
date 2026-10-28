@@ -11,7 +11,8 @@ This is the topic-by-topic learning library. It includes detailed explanations, 
 | [01 — Enumeration & vulnerabilities](01-enumeration-and-vulnerabilities.md) | Checklists, LinEnum, LinPEAS, Seatbelt, JAWS, kernel vulnerabilities, installed software |
 | [02 — Sudo & scheduled tasks](02-sudo-and-scheduled-tasks.md) | `sudo -l`, `NOPASSWD`, user switching, GTFOBins, cron |
 | [03 — SSH keys](03-ssh-keys.md) | Key files, permissions, `ssh-keygen`, key formatting and authentication |
-| [04 — Credentials & SSH explanations](05-credentials-and-key-management.md) | Credential exposure, history, public/private key examples |
+| [04 — Find, chmod & SUID](04-find-chmod-and-suid.md) | File modes, traversal, SUID searching, private-key permissions |
+| [05 — Credentials & SSH explanations](05-credentials-and-key-management.md) | Credential exposure, history, public/private key examples |
 | [Command cheatsheet](../../Cheatsheets/linux-privilege-escalation-commands.md) | All core enumeration, `find`, `chmod`, sudo and SSH commands |
 | [Resource directory](../../Cheatsheets/privilege-escalation-resources.md) | HackTricks, PayloadsAllTheThings, LinPEAS, GTFOBins, LOLBAS, and other tools |
 | [Completed practical](../../Labs/001-linux-privesc-user1-user2-root.md) | Verified user1 → user2 → root path and troubleshooting |
