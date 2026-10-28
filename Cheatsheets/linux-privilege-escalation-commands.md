@@ -1,6 +1,6 @@
 # 🐧 Linux Privilege Escalation — Command Cheatsheet
 
-[← Cheatsheet index](README.md) · [Detailed study notes](../Topics-for-Studies/Linux-Privilege-Escalation/README.md) · [Resources](privilege-escalation-resources.md)
+[← Cheatsheet index](README.md) · [Detailed study notes](../Topics-for-Studies/Linux-Privilege-Escalation.md) · [Resources](privilege-escalation-resources.md)
 
 **Use:** authorized labs only. This is a quick reference; the topic pages explain why each command matters.
 
