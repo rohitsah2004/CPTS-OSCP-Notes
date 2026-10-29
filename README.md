@@ -31,6 +31,15 @@
 - [Browse all study topics](Topics-for-Studies/README.md)
 - [Linux Privilege Escalation — master study guide](Topics-for-Studies/Linux-Privilege-Escalation.md)
 
+## 📖 Newly added study material
+
+- [File Transfers](Topics-for-Studies/File-Transfers.md)
+- [Nibbles — Enumeration and Web Footprinting](Topics-for-Studies/Nibbles-Enumeration-and-Web-Footprinting.md)
+- [Nibbles — Initial Foothold](Topics-for-Studies/Nibbles-Initial-Foothold.md)
+- [Learning Resources](Topics-for-Studies/Learning-Resources-and-Study-Approach.md)
+- [File Transfer Cheatsheet](Cheatsheets/file-transfer-commands.md)
+- [Nibbles Commands Cheatsheet](Cheatsheets/nibbles-enumeration-commands.md)
+
 ## 📚 Current lab library
 
 | # | Topic | Techniques | Verification |
