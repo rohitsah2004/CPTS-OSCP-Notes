@@ -19,3 +19,10 @@
 - [Linux PrivEsc commands](Cheatsheets/linux-privilege-escalation-commands.md)
 - [Privilege Escalation resources](Cheatsheets/privilege-escalation-resources.md)
 - [Web commands](Cheatsheets/web-and-public-exploits.md)
+
+## More learning material
+
+- [File transfer methods](Topics-for-Studies/File-Transfers.md)
+- [Nibbles enumeration and web footprinting — walkthrough reference, not a completed lab](Topics-for-Studies/Nibbles-Enumeration-and-Web-Footprinting.md)
+- [Nibbles initial foothold — walkthrough reference](Topics-for-Studies/Nibbles-Initial-Foothold.md)
+- [Learning resources and study approach](Topics-for-Studies/Learning-Resources-and-Study-Approach.md)
