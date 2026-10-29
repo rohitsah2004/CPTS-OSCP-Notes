@@ -29,3 +29,9 @@ Find a command by tool or task. Detailed commands from the original lab are pres
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 - [Reverse Shell Cheatsheet](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary)
 - [Full privilege escalation resource directory](privilege-escalation-resources.md)
+
+## File transfer and web enumeration references
+
+- [File-transfer commands: Python HTTP server, wget, curl, SCP, Base64 and hashes](file-transfer-commands.md)
+- [Nibbles: Nmap, WhatWeb, Gobuster and XML commands](nibbles-enumeration-commands.md)
+- [Practice resources and tutorials](../Topics-for-Studies/Learning-Resources-and-Study-Approach.md)
